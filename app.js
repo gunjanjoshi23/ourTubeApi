@@ -7,6 +7,7 @@ const videoRoute = require('./routes/video')
 const bodyParser = require('body-parser')
 const fileUpload = require('express-fileupload')
 const commentRoute = require('./routes/comment')
+const cors = require('cors')
 
 
 
