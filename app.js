@@ -25,6 +25,8 @@ console.log(err)
     }
 }
 connectWithDatabase()
+
+app.use(cors())
 app.use(bodyParser.json())
 
 app.use(fileUpload({
